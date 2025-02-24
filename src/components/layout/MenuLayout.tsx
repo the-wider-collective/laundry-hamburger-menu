@@ -1,3 +1,4 @@
+
 import React from "react";
 import { UserHeader } from "./UserHeader";
 import { MenuList } from "../menu/MenuList";
@@ -9,7 +10,7 @@ export const MenuLayout: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen p-5 bg-gradient-to-br from-blue-900 to-purple-900">
+    <div className="min-h-screen p-5 bg-[#7FD6D0]">
       <div className="max-w-[393px] mx-auto my-0 p-5 max-md:p-[15px] max-sm:p-2.5">
         <UserHeader name="John" />
         <MenuList />
