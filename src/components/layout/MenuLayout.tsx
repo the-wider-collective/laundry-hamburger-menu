@@ -29,7 +29,7 @@ export const MenuLayout: React.FC = () => {
         <ReferralCard />
         <button
           onClick={handleSignOut}
-          className="text-white text-lg cursor-pointer hover:opacity-80 transition-opacity"
+          className="text-white text-lg cursor-pointer hover:opacity-80 transition-opacity mt-4"
         >
           Sign out
         </button>

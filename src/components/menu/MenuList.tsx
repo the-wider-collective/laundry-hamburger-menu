@@ -1,3 +1,4 @@
+
 import React from "react";
 import { MenuItem } from "./MenuItem";
 
@@ -11,7 +12,7 @@ const menuItems = [
 
 export const MenuList: React.FC = () => {
   return (
-    <nav className="flex flex-col gap-[30px] mb-10" role="navigation">
+    <nav className="flex flex-col gap-0 mb-10" role="navigation">
       {menuItems.map((item, index) => (
         <MenuItem key={index} {...item} />
       ))}
